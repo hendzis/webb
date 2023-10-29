@@ -1,0 +1,288 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,:active {outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+ 	font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+/*-----------------------------------------------------------*/
+
+body {
+	background: #000000;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0px auto;
+}
+
+.header__container {
+	padding: 0px 50px;
+}
+
+.header__row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	width: 195px;
+	height: 110px;
+	position: relative;
+	right: 190px;
+	bottom: 2px;
+}
+
+.btns a {
+	padding: 0px 15px;
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: 'Arial', sans-serif;
+    position: relative;
+    left: 137px;
+    bottom: 2px;
+    transition: 0.1s;
+}
+
+.social__btns a {
+	color: #fff;
+	padding: 8px;
+	position: relative;
+	left: 170px;
+	bottom: 2px;
+	transition: 0.3s;
+}
+
+
+.btns a:hover {
+	color: #b3b600;
+}
+
+.social__btns a:hover {
+	color: #b3b600;
+}
+
+.content {
+	flex: 1 1 auto;
+}
+
+.content__container{
+	max-width: 1555px;
+	margin: 0px auto;
+}
+
+.image img {
+	width: 1250px;
+}
+
+.content__body {
+	padding: 60px 0px;
+}
+
+.title {
+	position: relative;
+	left: 25px;
+	color: #fff;
+	font-size: 50px;
+	font-family: "Bebas Neue", monospace;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.text {
+	position: relative;
+	left: 25px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto Mono', monospace;
+    line-height: 24px;
+}
+
+.imgs {
+	width: 32%;
+	position: relative;
+	left: 820px;
+	bottom: 260px;
+
+}
+
+.imgs__row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.imgs img{
+	width: 190px;
+	height: 190px;
+	padding: 0px 0px 15px 0px;
+}
+
+.container__for {
+	position: relative;
+	bottom: 250px;
+	left: 20px;
+}
+
+.title2 {
+	color: #b3b600;
+	font-size: 30px;
+	font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+	color: #fff;
+	font-size: 18px;
+	font-family: "Roboto Mono", monospace;
+	text-transform: uppercase;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+.text-2 {
+	color: #fff;
+	font-size: 17px;
+	line-height: 24px;
+	font-family: 'Inter', monospace;
+}
+
+.n {
+	width: 30%;
+	color: #aeaeae;
+	font-size: 13px;
+	font-family: 'Inter', monospace;
+    font-style: italic;
+    line-height: 19px;
+    position: relative;
+    left: 815px;
+    bottom: 47px;
+}
+
+.y__con {
+	position: relative;
+	bottom: 200px;
+	left: 20px;
+	width: 1175px;
+	background: #bfc500;
+	padding: 30px 10px;
+}
+
+
+.y__con__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.first__text {
+	font-size: 30px;
+	font-weight: bolder;
+   	font-family: "Bebas Neue", monospace;
+   	text-transform: uppercase;
+   	font-style: italic;
+   	letter-spacing: 2;
+
+}
+
+.second__text {
+	font-family: "Robot Mono", monospace;
+	font-size: 21px;
+	width: 40%;
+	line-height: 27px;
+}
+
+.btn__y a {
+	background: #000000;
+	padding: 15px 40px;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+    color: #bfc500;
+	font-size: 20px;
+	text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+.btn__y a:hover {
+    color: #000000;
+	background: #fff;
+}
+
+.linea {
+	width: 1175px;
+	border-bottom: 1px solid #3b3b3b;
+    margin-top: 0px;
+}
+
+.spacs__container {
+	margin-top: 20px;
+}
+
+.spacs__title {
+	color: #fff;
+	font-family: "Bebas Neue", monospace;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.spacs__text  {
+	left: 5px;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Roboto Mono", monospace;
+    width: 30%;
+    line-height: 2;
+}
+
+.spacs__gif img {}
+
